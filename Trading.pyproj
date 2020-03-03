@@ -5,8 +5,7 @@
     <ProjectGuid>e5b4c5a9-bcd8-404f-ac6f-ee2979d424bc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>Launcher.py</StartupFile>
-    <SearchPath>
-    </SearchPath>
+    <SearchPath>api;api\quandl;api\quandl\base;api\quandl\helper</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Trading</Name>
@@ -25,6 +24,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="api\quandl\helper\DownloaderHelper.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="api\quandl\PriceDownloader.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Launcher.py" />

@@ -24,12 +24,16 @@
     <Compile Include="api\quandl\base\IDownloader.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="api\quandl\helper\DownloaderHelper.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Launcher.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="api\" />
     <Folder Include="api\quandl\" />
     <Folder Include="api\quandl\base\" />
+    <Folder Include="api\quandl\helper\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

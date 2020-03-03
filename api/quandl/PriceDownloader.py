@@ -2,8 +2,8 @@ import pandas
 
 import quandl
 
-from base.IDownloader import IDownloader
-from helper.DownloaderHelper import DownloaderHelper
+from api.quandl.base.IDownloader import IDownloader
+from api.quandl.helper.DownloaderHelper import DownloaderHelper
 
 class PriceDownloader(IDownloader):
     """

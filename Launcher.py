@@ -1,6 +1,7 @@
 import pandas
 
 from api.quandl.helper.DownloaderHelper import DownloaderHelper
+from api.quandl.PriceDownloader import PriceDownloader
 
 
 class Launcher:
@@ -18,6 +19,11 @@ class Launcher:
     def start(self) -> None:
         """
         """
+
+        gcPrice = PriceDownloader('CHRIS/CME_GC1')
+
+        print (gcPrice)
+
 
 
 if __name__ == '__main__':

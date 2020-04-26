@@ -20,6 +20,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="api\barchart\webcrawler\BaseSymbolCrawlerImpl.py" />
+    <Compile Include="api\barchart\webcrawler\AddressEnum.py" />
+    <Compile Include="api\barchart\webcrawler\FuturesCrawler.py" />
+    <Compile Include="api\barchart\webcrawler\IWebCrawler.py" />
     <Compile Include="api\quandl\base\IDownloader.py">
       <SubType>Code</SubType>
     </Compile>
@@ -33,6 +37,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="api\" />
+    <Folder Include="api\barchart\" />
+    <Folder Include="api\barchart\webcrawler\" />
     <Folder Include="api\quandl\" />
     <Folder Include="api\quandl\base\" />
     <Folder Include="api\quandl\helper\" />

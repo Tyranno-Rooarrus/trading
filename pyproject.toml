@@ -2,7 +2,7 @@
 name = "repl_python3_beta_trading"
 version = "0.1.0"
 description = ""
-authors = ["repl.it user <replituser@example.com>"]
+authors = ["repl.it user kobstaedt.development@gmail.com"]
 
 [tool.poetry.dependencies]
 python = "^3.8"

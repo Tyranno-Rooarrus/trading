@@ -1,2 +1,2 @@
 language = "python3"
-run = "python Launcher.py"
+run = "python src/__main__.py"

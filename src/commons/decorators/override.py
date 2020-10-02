@@ -17,8 +17,8 @@ def Override(interfaceClass):
     """
     """
 
-    assert (method.__name__ in dir(interfaceClass))
+    assert(method.__name__ in dir(interfaceClass))
     
     return method
   
-  return Override
+  return overrider
